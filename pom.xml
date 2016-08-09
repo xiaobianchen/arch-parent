@@ -210,7 +210,7 @@
         <repository>
             <id>arch-internal-snapshots</id>
             <name>arch internal repository for snapshots artifacts</name>
-            <url>http://192.168.102.200:8081/nexus/content/repositories/snapshots/</url>
+            <url>http://192.168.66.77:8081/nexus/content/repositories/snapshots/</url>
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
@@ -222,7 +222,7 @@
         <repository>
             <id>arch-internal-releases</id>
             <name>arch internal repository for released artifacts</name>
-            <url>http://192.168.102.200:8081/nexus/content/repositories/releases/</url>
+            <url>http://192.168.66.77:8081/nexus/content/repositories/releases/</url>
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
@@ -235,7 +235,7 @@
         <repository>
             <id>arch-third-party</id>
             <name>arch cache server for external repositories</name>
-            <url>http://192.168.102.200:8081/nexus/content/repositories/thirdparty/</url>
+            <url>http://192.168.66.77:8081/nexus/content/repositories/thirdparty/</url>
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
@@ -244,7 +244,7 @@
         <repository>
             <id>central</id>
             <name>arch proxy server for external repositories</name>
-            <url>http://192.168.102.200:8081/nexus/content/repositories/central/</url>
+            <url>http://192.168.66.77:8081/nexus/content/repositories/central/</url>
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
@@ -256,7 +256,7 @@
         <pluginRepository>
             <id>arch-internal-snapshots</id>
             <name>arch internal repository for snapshots artifacts</name>
-            <url>http://192.168.102.200:8081/nexus/content/repositories/snapshots/</url>
+            <url>http://192.168.66.77:8081/nexus/content/repositories/snapshots/</url>
             <snapshots>
                 <enabled>true</enabled>
             </snapshots>
@@ -268,7 +268,7 @@
         <pluginRepository>
             <id>arch-internal-releases</id>
             <name>arch internal repository for released artifacts</name>
-            <url>http://192.168.102.200:8081/nexus/content/repositories/releases/</url>
+            <url>http://192.168.66.77:8081/nexus/content/repositories/releases/</url>
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
@@ -281,7 +281,7 @@
         <pluginRepository>
             <id>arch-central-cache</id>
             <name>arch cache to external repositories</name>
-            <url>http://192.168.102.200:8081/nexus/content/repositories/thirdparty/</url>
+            <url>http://192.168.66.77:8081/nexus/content/repositories/thirdparty/</url>
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
@@ -290,7 +290,7 @@
         <pluginRepository>
             <id>central</id>
             <name>Platform proxy to external repositories</name>
-            <url>http://192.168.102.200:8081/nexus/content/repositories/central/</url>
+            <url>http://192.168.66.77:8081/nexus/content/repositories/central/</url>
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
@@ -302,12 +302,12 @@
     <distributionManagement>
         <repository>
             <id>arch-internal-releases</id>
-            <url>http://192.168.102.200:8081/nexus/content/repositories/releases/</url>
+            <url>http://192.168.66.77:8081/nexus/content/repositories/releases/</url>
         </repository>
 
         <snapshotRepository>
             <id>arch-internal-snapshots</id>
-            <url>http://192.168.102.200:8081/nexus/content/repositories/snapshots/</url>
+            <url>http://192.168.66.77:8081/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
 
     </distributionManagement>
