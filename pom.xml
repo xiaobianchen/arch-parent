@@ -298,7 +298,7 @@
 
     </pluginRepositories>
 
-
+   <!--配置远程发布到私服 mvn deploy-->
     <distributionManagement>
         <repository>
             <id>arch-internal-releases</id>
